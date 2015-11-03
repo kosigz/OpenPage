@@ -1,0 +1,213 @@
+#searchbox
+{
+    background-color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+    max-width: 300px;
+    height: 35px;
+    padding: 10px;
+    margin: 200px auto 50px;
+    overflow: hidden; /* Clear floats */
+}
+
+
+
+#main-nav .active > a{
+  /*color: #1560ca;*/
+  text-shadow: 0px 1px 0px #b2a98f,
+           0px 3px 10px rgba(0,0,0,0.15),
+           0px 5px 2px rgba(0,0,0,0.1),
+           0px 6px 30px rgba(0,0,0,0.1);
+
+}
+
+#main-nav a:hover{
+  top: -2px;
+  /*color: #1560ca;*/
+  text-shadow: 0px 1px 0px #b2a98f,
+           0px 3px 10px rgba(0,0,0,0.15),
+           0px 5px 2px rgba(0,0,0,0.1),
+           0px 6px 30px rgba(0,0,0,0.1);
+
+}
+#navbar {
+  height:80px;
+	position: absolute; /* Remove for original scrolling */
+	/*position: fixed;*/
+	float:center;
+}
+
+#navbar a{
+  font-size: 1.2em;
+  padding: 15px;
+}
+
+
+	#brand {
+		padding-left: 20px;
+		font-size: 20px;
+
+	}
+
+
+#regbutton {
+  position:relative;
+  background-color: black;
+  opacity: .7;
+  height:53px;
+  width:270px;
+}
+#indexlogo{
+  margin-top:20px;
+  margin-left:20px;
+}
+input {
+    border: 1px solid transparent;
+   border-style: solid;
+   border-bottom-color: white;
+
+    background: rgba(255,255,255,0.0);
+  }
+
+  /*::-webkit-input-placeholder {
+   color: white;
+}*/
+
+input:focus {outline:none;}
+input[type=text] {
+  color:white;
+  font-size:16px;
+  font-weight:thinner;
+  font-family:Arial;
+
+}
+
+.fieldnames {
+ height:40px;
+ width:200px;
+}
+
+.fieldnameLogin {
+ height:50px;
+ width:280px;
+}
+
+.login{
+  background: url('../images/book.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+.loginbody {
+  margin-top:60px;
+}
+.Reg {
+  background: url('../images/library.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+
+#img {
+  -moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+-khtml-border-radius: 5px;
+}
+
+
+#exit {
+  cursor: pointer; cursor: hand;
+  -moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+-khtml-border-radius: 5px;
+margin-left:-5%;
+}
+.loginButton {
+  margin-top:-100px;
+  margin-left:950px;
+  margin-bottom:85px;
+
+}
+
+#logingray{
+  position:relative;
+  margin-top:-100px;
+  margin-left:1000px;
+}
+ #Home {
+  background: url('../images/guy.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height:700px;
+
+}
+#Home2 {
+
+ min-height:300px;
+ min-width:100%;
+
+}
+
+#Home2 h1 {
+  font-family:Proxima sans-serif;
+}
+#home3pic {
+  background-size:cover;
+  min-width:100%;
+}
+#trial {
+  font-family:Arial;
+  font-style: italic;
+  font-weight:100;
+  color:white;
+  text-decoration: underline #ff3232;
+}
+
+.logo {
+  margin-left:-80px;
+  margin-bottom:35px;
+  border:2px white solid;
+  background-color:#ff3232;
+  font-family:PT Serif;
+  height:56px;
+  width:116px;
+  font-size:18px;
+}
+
+.logosub {
+  text-decoration: underline none;
+  margin-left:auto;
+  margin-right: auto;
+  color:white;
+  padding-top:12px;
+}
+
+#divs {
+  margin-top:30px;
+}
+#divs2 {
+  margin-top:30px;
+  margin-bottom:30px;
+}
+#blackdiv {
+  position:relative;
+  background-color: black;
+  opacity: .8;
+  min-height:500px;
+  width:550px;
+  float: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:50px;
+}
